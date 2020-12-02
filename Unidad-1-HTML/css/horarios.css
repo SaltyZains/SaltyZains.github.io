@@ -1,0 +1,35 @@
+.formulacion{
+    color: blue;
+    text-decoration-line: none;
+}
+.lenguajes{
+    color: white;
+    text-decoration-line: none;
+}
+.ingles{
+    color: crimson;
+    text-decoration-line: none;
+}
+.diseño{
+    color: rgb(213, 20, 220);
+    text-decoration-line: none;
+}
+.Ingenieria{
+    color: goldenrod;
+    text-decoration-line: none;
+}
+.liderazgo{
+    color: cornflowerblue;
+    text-decoration-line: none;
+}
+.web{
+    color: rgb(151, 206, 50);
+    text-decoration-line: none;
+}
+
+.fondo{
+    background-color: black;
+}
+.horas{
+    color: aqua;
+}

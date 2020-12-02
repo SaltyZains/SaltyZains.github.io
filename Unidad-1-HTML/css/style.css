@@ -1,0 +1,33 @@
+h1{
+    text-transform: capitalize;
+    color: aqua;
+    background-color: black;
+    text-align: center;
+}
+.titulos-principales{
+    font-size: 40px;
+    color: aqua;
+    border: dashed;
+    border-color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitulos{
+    font-size: 40px;
+    color: black;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.imagenes{
+    border: solid;
+    border-color: red;
+}
+/*por medio de un ID  # = ID */
+
+#agenda, #agenda tr td, #agenda tr th{
+    border: solid;
+    border-color: red;
+    border-radius: 20%;
+}

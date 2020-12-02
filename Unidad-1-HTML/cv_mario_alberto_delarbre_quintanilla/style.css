@@ -1,0 +1,76 @@
+h1{
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+    margin-left: 200px;
+}
+.titulos-principales{
+    font-size: 40px;
+    color: aqua;
+    border: dashed;
+    border-color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.nav{
+    background-color: black;
+    color: black;
+}
+
+.encabezado{
+    background-color: aqua;
+    
+}
+.url{
+    text-decoration-line: none;
+    display: flex;
+    margin-left: 10px;
+}
+.subtitulos{
+    font-size: 40px;
+    color: black;
+    text-transform: capitalize;
+    text-align: left;
+}
+.desc{
+    background-color: lightgrey;
+    font-size: large;
+}
+.competencias{
+    background-color: burlywood;
+    font-size: large;
+}
+
+.educacion{
+    background-color: lightgrey;
+    font-size: large;
+}
+
+.exp{
+    background-color: burlywood;
+    font-size: large;
+}
+
+.descripcion{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+.referencias{
+    background-color: lightgrey;
+    font-size: large;
+}
+
+.imagenes{
+    border: solid;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+/*por medio de un ID  # = ID */
+
+#agenda, #agenda tr td, #agenda tr th{
+    border: solid;
+    border-color: red;
+    border-radius: 20%;
+}

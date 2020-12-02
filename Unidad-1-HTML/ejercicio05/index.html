@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <form action="a_donde_me_dirijo.html" method="GET">
+        <div>
+            <label>Nombre:</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre aqui" required>
+        </div>
+        <div>
+            <label>Correo:</label>
+            <input type="email" name="correo" required>
+        </div>
+        
+        <div>
+            <label>Contraseña:</label>
+            <input type="password" name="contraseña">
+        </div>
+
+        <div>
+            <label>Telefono:</label>
+            <input type="phone" name="telefono">
+        </div>
+
+        <div>
+            <label>Fecha:</label>
+            <input type="date" name="fecha">
+        </div>
+
+        <div>
+            <label>Descripcion:</label>
+            <textarea name="descripcion" placeholder="Escribe tu descripcion aqui"></textarea>
+        </div>
+
+        <div>
+            <label>Color:</label>
+            <select name="color">
+                <option value="1">Amarillo</option>
+                <option value="2">Rojo</option>
+                <option value="3">Verde</option>
+            </select>
+        </div>
+        
+        <div>
+            <label>Genero:</label>
+            <input type="radio" name="genero" value="Masculino">Masculino
+            <input type="radio" name="genero" value="Femenino">Femenino
+        </div>
+        
+        <div>
+            <label>Pasatiempos</label>
+            <input type="checkbox" name="pasatiempos" value="Correr">Correr
+            <input type="checkbox" name="pasatiempos" value="Nadar">Nadar
+            <input type="checkbox" name="pasatiempos" value="Bailar">Bailar
+        </div>
+
+        <input type="submit" name="boton" value="Enviar">
+    </form>
+
+</body>
+</html>

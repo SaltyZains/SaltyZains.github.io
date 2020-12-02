@@ -1,0 +1,47 @@
+h1{
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+    margin-left: 200px;
+}
+.titulos-principales{
+    font-size: 40px;
+    color: aqua;
+    border: dashed;
+    border-color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.encabezado{
+    background-color: aqua;
+    
+}
+
+.datos{
+    margin-left: 100px;
+}
+.url{
+    text-decoration: none;
+    text
+}
+
+.subtitulos{
+    font-size: 40px;
+    color: black;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.imagenes{
+    border: solid;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+/*por medio de un ID  # = ID */
+
+#agenda, #agenda tr td, #agenda tr th{
+    border: solid;
+    border-color: red;
+    border-radius: 20%;
+}
