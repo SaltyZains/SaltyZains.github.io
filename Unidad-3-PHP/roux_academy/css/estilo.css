@@ -1,0 +1,15 @@
+body{
+    width: 800px;
+    margin: auto;
+    background-color: gray;
+}
+
+main{
+    background-color: white;
+    padding: 30px;
+}
+
+button{
+    text-align: right;
+    display: inline-block;
+}

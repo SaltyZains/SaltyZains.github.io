@@ -1,0 +1,37 @@
+body{
+    width: 800px;
+    margin: auto;
+    background-color: gray;
+}
+
+main{
+    background-color: white;
+    padding: 30px;
+}
+
+table{
+    border: solid 1px red;
+}
+
+th,td{
+    border: solid 1px red;
+}
+
+a{
+    text-align: right;
+}
+
+.etiquetas{
+    text-transform: uppercase;
+    color: purple;
+    width: 30%;
+    display: inline-block;
+}
+
+.controles{
+    width: 60%;
+}
+button{
+    text-align: right;
+    display: inline-block;
+}
