@@ -1,0 +1,15 @@
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: blue;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+body{
+    width: 1080px;
+    margin: auto;
+}

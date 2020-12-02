@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula tu IMC</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+        <p>Alumno: Mario Alberto Delarbre Quintanilla</p>
+        <p>Correo: 1830121@upv.edu.mx</p>
+        <p>Programacion Web</p>
+    </header>
+    <div class="principal">
+        <main>
+            <section>
+                <form>
+                    <div class="peso">
+                        <label>Peso:</label>
+                        <input type="number" placeholder="peso" id="peso">
+                    </div>
+                    <div class="altura">
+                        <label>Altura:</label>
+                        <input type="number" placeholder="altura" id="altura" step="0.01">
+                    </div>
+                    <div class="boton">
+                        <button onClick="calcularIMC();">Calcular</button>
+                    </div>
+                    <div class="resultado">
+                        <label for="" id="imc"></label>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>

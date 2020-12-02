@@ -1,0 +1,53 @@
+body{
+    background-color: gray;
+}
+.contenido{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+
+header{
+    background-color: white;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+main{
+    background-color: white;
+    margin-left: 300px;
+}
+
+main label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: px;
+}
+
+
+
+table{
+    background-color: white;
+    width: 1000px;
+    margin-top: 20px;
+    margin: auto;
+    border: 3px solid black;
+}
+
+th,td,tr{
+    border: 2px solid black;
+}
+
+tfoot{
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd){ /*Podemos poner odd que es impar */
+    background-color: aqua;
+}
+
+tbody tr:nth-child(even){ /* O podemos poner even que es par */
+    background-color: aquamarine;
+}

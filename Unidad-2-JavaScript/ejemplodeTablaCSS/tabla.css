@@ -1,0 +1,7 @@
+tbody tr:nth-child(odd){ /*Podemos poner odd que es impar */
+    background-color: aqua;
+}
+
+tbody tr:nth-child(even){ /* O podemos poner even que es par */
+    background-color: aquamarine;
+}

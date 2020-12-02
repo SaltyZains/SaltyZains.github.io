@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+header{
+    background-color: orange;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px 40px;
+}
+
+header p{
+    margin: 10px;
+}
+
+p{
+    font-size: 24px;
+}
+
+.principal{
+    background-color: white;
+    display: flex;
+    padding: 10px 40px;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.principal button{
+    margin-bottom: 10px;
+}
+
+
+.altura{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.resultado{
+    color: blue;
+    font-size: 30px;
+}

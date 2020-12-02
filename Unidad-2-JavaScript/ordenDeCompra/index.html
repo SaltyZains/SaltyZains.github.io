@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden de Venta</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="init();" id="body">
+    <div class="contenido">
+        <header>
+            <h1>Orden de Venta</h1>
+        </header>
+        <main>
+            <section>
+                <label>Producto:</label>
+                <br>
+                <select id="opciones">
+                    <option>Seleccione...</option>
+                    <option value="Brocas">Brocas</option>
+                    <option value="Martillo">Martillo</option>
+                    <option value="Clavos">Clavos</option>
+                </select>
+                <br>
+                <label>Precio:</label>
+                <br>
+                <input type="number" step="0.01" id="precio">
+                <br>
+                <label>Unidades:</label>
+                <br>
+                <input type="number" id="unidades">
+                <br>
+                <br>
+                <button onclick="agregar();" id="boton">Agregar</button>
+                <br>
+                <br>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
